@@ -1,0 +1,23 @@
+name: portfolio-opt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - scikit-learn
+  - statsmodels
+  - pip:
+    - yfinance
+    - pmdarima
+    - pyportfolioopt
+    - python-dotenv
+    - tqdm
+    - pytest
