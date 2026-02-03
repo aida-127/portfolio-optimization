@@ -1,0 +1,23 @@
+TASK 5 SUMMARY - STRATEGY BACKTESTING
+=========================================
+Date: 2026-02-03 13:54:24
+
+BACKTEST RESULTS:
+Our Strategy (Max Sharpe Portfolio):
+- Final Value: ,970
+- Total Return: -0.3%
+- Sharpe Ratio: -0.061
+
+Benchmark (60% SPY / 40% BND):
+- Final Value: ,703
+- Total Return: +7.0%
+- Sharpe Ratio: +0.710
+
+CONCLUSION:
+The benchmark outperformed our strategy in this backtest period.
+The simple 60/40 portfolio delivered better returns.
+
+LESSONS LEARNED:
+1. Over-reliance on BND (94%) limited upside potential
+2. Simple strategies can outperform complex optimizations
+3. Portfolio optimization is sensitive to input assumptions
